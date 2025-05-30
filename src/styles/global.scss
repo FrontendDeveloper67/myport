@@ -1,0 +1,190 @@
+@import './contants.scss';
+
+.bg-primary {
+  background: #F2F2F2;
+}
+.bg-white {
+  background: #ffffff;
+}
+
+.innerWidth {
+  @media (min-width: $xxl) {
+    max-width: 1280px;
+    margin: auto;
+  }
+
+  width: 100%;
+}
+
+.paddings {
+  @media (min-width: $sm) {
+    padding: 4rem;
+  }
+
+
+  @media (min-width: $xl),
+  (min-width: $md) {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+
+
+.xPaddings {
+  @media (min-width: $sm) {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  padding-left: 1.5rem;
+  /* 24px */
+  padding-right: 1.5rem;
+  /* 24px */
+}
+
+.yPaddings {
+  @media (min-width: $sm) {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  @media (min-width: $xl) {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.topPaddings {
+  @media (min-width : $sm) {
+    padding-top: 4rem;
+  }
+
+  @media (min-width: $xl) {
+    padding-top: 2rem;
+  }
+
+  padding-top: 3rem;
+}
+
+
+.bottomPaddings {
+  @media (min-width : $sm) {
+    padding-bottom: 4rem;
+  }
+
+  @media (min-width: $xl) {
+    padding-bottom: 2rem;
+  }
+
+  padding-bottom: 3rem;
+}
+
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexStart {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.flexEnd {
+  display: flex;
+  justify-items: end;
+}
+
+.primaryText {
+  @media (max-width: $sm) {
+    font-size: 2.5rem;
+  }
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.text-primary {
+  color: $theme-color;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.text-primary-color {
+  color: $theme-color;
+}
+.role{
+   font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: $secondary;
+    margin-bottom: 0.2rem;
+}
+.detail {
+    line-height: 2rem;
+    color: $normalText;
+  font-weight: 400;
+  font-size: 1rem;
+  }
+  .place {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: $secondary;
+    margin-bottom: 0.2rem;
+}
+.tenure{
+  color: $normalText;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.pro-no {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.no-heading {
+    border-right: 1px solid #dee2e6;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.2;
+    color: $secondary;
+}
+.subheading{
+  color: $normalText;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.secondaryText {
+  @media (max-width: $sm) {
+    font-size: 1.1rem;
+   
+  }
+  
+  font-size: 1.3rem;
+  font-weight: 500
+}
+.me {  
+  font-size: 1rem;
+  font-weight: 400;
+  color: $normalText;
+  line-height: 1.5rem;
+}
+
+.anchor {
+  display: block;
+  position: relative;
+  top: -100px;
+  visibility: hidden;
+}
