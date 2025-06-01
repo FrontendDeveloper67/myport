@@ -183,7 +183,7 @@
 
             img {
                 @media (max-width: $sm ) {
-                    width: 25rem;
+                    width: 12rem;
                     margin-bottom: 0px;
                 }
                margin-bottom: 0;
@@ -199,6 +199,7 @@
                 justify-content: center;
                 gap: 1.5rem; // Adjust gap for small screens
                 margin-top: 2rem; // Add margin-top to ensure spacing from other content
+                margin-bottom: 1rem;
             }
 
             position: absolute;

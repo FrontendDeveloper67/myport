@@ -33,6 +33,11 @@
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
+ @media (max-width: $sm) { 
+        .mobilewidth {
+          display: block !important;
+        }
+  }
 
 
 

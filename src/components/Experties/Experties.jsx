@@ -12,7 +12,7 @@ const Experties = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.25 }}
-        className={`paddings yPaddings innerWidth flexCenter ${css.container}`}>
+        className={`paddings yPaddings innerWidth flexCenter mobilewidth ${css.container}`}>
 
 
             {/* left side */}
