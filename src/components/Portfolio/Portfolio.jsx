@@ -48,7 +48,7 @@ const Portfolio = () => {
 
 
 
-          <a href="https://portal.risebuildings.com/" target="_blank" rel="noopener noreferrer">
+          <a href="https://dev.risebuildings.com/" target="_blank" rel="noopener noreferrer">
             <motion.img
               variants={fadeIn("up", "tween", 0.3, 0.6)}
               src="./risebuildings.png"
